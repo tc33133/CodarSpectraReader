@@ -6,6 +6,9 @@ import numpy as np
 def datatoSS(a):
     return 10*np.log10(np.abs(a)) - (-40. + 5.8)
 
+def tenlogten(a):
+    return 10*np.log10(np.abs(a))
+
 def secondsAdjust():
     d1 = datetime.strptime("1904-01-01", "%Y-%m-%d")
     d2 = datetime.strptime("1970-01-01", "%Y-%m-%d")
