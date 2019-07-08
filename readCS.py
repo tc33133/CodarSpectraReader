@@ -4,7 +4,7 @@ import struct
 import numpy as np
 
 def datatoSS(a):
-    return 10*np.log10(np.abs(a)) - (-40. + 5.8)
+    return 10*np.log10(np.abs(a)) + (-40. + 5.8)
 
 def tenlogten(a):
     return 10*np.log10(np.abs(a))
